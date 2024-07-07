@@ -74,20 +74,20 @@ async function displayAlbums() {
             if (anchor.href.includes('/songs') && !anchor.href.includes('.htaccess')) {
                 const folder = anchor.href.split('/').slice(-2)[0];
                 const responseJson = await (await fetch(`/songs/old/info.json`)).json();
-                cardContainer.innerHTML += `<div data-folder=old class="card">
-            <svg
-              height="100"
-              viewBox="0 0 100 100"
-              width="100"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
-              <polygon fill="black" points="35,25 35,75 75,50" />
-            </svg>
-            <img  alt="Cover photo" src="/songs/old/Cover.jpeg" />
-            <h3>Old Hits</h3>
-            <p>Babbu Maan, Wazir, Diljit Dosanjh</p>
-          </div>`;
+        //         cardContainer.innerHTML += `<div data-folder=old class="card">
+        //     <svg
+        //       height="100"
+        //       viewBox="0 0 100 100"
+        //       width="100"
+        //       xmlns="http://www.w3.org/2000/svg"
+        //     >
+        //       <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+        //       <polygon fill="black" points="35,25 35,75 75,50" />
+        //     </svg>
+        //     <img  alt="Cover photo" src="/songs/old/Cover.jpeg" />
+        //     <h3>Old Hits</h3>
+        //     <p>Babbu Maan, Wazir, Diljit Dosanjh</p>
+        //   </div>`;
             }
         }
 
