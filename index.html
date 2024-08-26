@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="utility.css" rel="stylesheet" />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="left">
+        <div class="home bg-color">
+          <span class="logo">
+            <img  alt="" class="invert" src="img/logo.svg" />
+          </span>
+          <span class="cross" style="position: absolute;
+          left: 349px;
+          width: 51px;
+          top: 15px;"><img src="img/cross.svg" alt="X sign">
+            </span>
+          <ul>
+
+            <li>
+              <img  alt="Home symobol" class="invert" src="img/home.svg" />Home
+            </li>
+            <li>
+              <img  alt="Search symobol" class="invert" src="img/search.svg" />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-color">
+          <ul>
+            <li>
+              <img  alt="library logo" class="invert" src="img/library.svg" />
+              Your Songs
+            </li>
+          </ul>
+          <div class="songList">
+            <ul>
+            </ul>
+          </div>
+          <div class="footer flex">
+            <div>
+              <a
+                data-encore-id="textLink"
+                href="https://www.spotify.com/in-en/legal/"
+                id=""
+              >
+                <span data-encore-id="type">Legal</span>
+              </a>
+            </div>
+            <div>
+              <a
+                data-encore-id="textLink"
+                href="https://www.spotify.com/in-en/safetyandprivacy/"
+                id=""
+              >
+                <span data-encore-id="type">Safety &amp; Privacy Center</span>
+              </a>
+            </div>
+            <div>
+              <a
+                data-encore-id="textLink"
+                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                id=""
+              >
+                <span data-encore-id="type">Privacy Policy</span>
+              </a>
+            </div>
+            <div>
+              <a
+                data-encore-id="textLink"
+                href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                id=""
+              >
+                <span data-encore-id="type">Cookies</span>
+              </a>
+            </div>
+            <div>
+              <a
+                data-encore-id="textLink"
+                href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                id=""
+              >
+                <span data-encore-id="type">About Ads</span>
+              </a>
+            </div>
+            <div>
+              <a
+                data-encore-id="textLink"
+                href="https://www.spotify.com/in-en/accessibility/"
+                id=""
+              >
+                <span data-encore-id="type">Accessibility</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="header flex">
+          <div class="nav flex">
+            <span class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </span>
+            <ul class=" LeftRightarrow flex">
+              <li><img  alt="left arrow" src="img/back.svg" /></li>
+              <li><img  alt="right arrow" src="img/Forward.svg" /></li>
+            </ul>
+            <div class="buttons flex">
+              <button class="button1">Sign up</button>
+              <button class="button2">Log in</button>
+            </div>
+          </div>
+        </div>
+        <div class="mainContainer">
+        <div class="spotifyPlaylist">
+          <h2>Spotify Playlists</h2>
+        </div>
+        <div class="cardContainer flex">
+          <div data-folder="old" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/old/Cover.jpeg" />
+            <h3>Old Hits</h3>
+            <p>Babbu Maan, Wazir, Diljit Dosanjh</p>
+          </div>
+          <div data-folder="top" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/top/Cover.jpeg" />
+            <h3>Top Played</h3>
+            <p>Nijjar, Karan Aujla, Prm Nagra</p>
+          </div>
+          <div data-folder="Haryanvi" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Haryanvi/Cover.jpeg" />
+            <h3>Haryanvi Hits</h3>
+            <p>KD Desirock, Dhada Nyoliwala, Ndee Kundu</p>
+          </div>
+          <div data-folder="Hip" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Hip/Cover.jpeg" />
+            <h3>Hip te Hop</h3>
+            <p>Sidhu Moosewala, Karan Aujla, Jerry</p>
+          </div>
+          <div data-folder="Punjabi" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Punjabi/Cover.jpeg" />
+            <h3>Punjabi 101</h3>
+            <p>Shubh, The Landers, Prem Dhillon</p>
+          </div>
+          <div data-folder="Rappp" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Rappp/Cover.jpeg" />
+            <h3>Rappp 91</h3>
+            <p>Yo Yo Honey Singh, Nijjar, Ikka</p>
+          </div>
+          <div data-folder="This" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/This/Cover.jpeg" />
+            <h3>This is KR$NA</h3>
+            <p>This is KR$NA. The essential tracks</p>
+          </div>
+          <div data-folder="Trending" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Trending/Cover.jpeg" />
+            <h3>Trending Now India</h3>
+            <p>Karan Aujla, Shubh, Prem Dhillon</p>
+          </div>
+          <div data-folder="Bollywood" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Bollywood/Cover.jpeg" />
+            <h3>Bollywood Mush</h3>
+            <p>Arijit Singh, Vishal Mishra, Danny</p>
+          </div>
+          <div data-folder="Aggresive" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Aggresive/Cover.jpeg" />
+            <h3>Aggresive Punjabi</h3>
+            <p>Ikka, Karan Aujla, The Landers</p>
+          </div>
+          <div data-folder="Bhangra" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Bhangra/Bhangra Bangers.jpeg" />
+            <h3>Bhangra Bangers</h3>
+            <p>Diljit, Karan Aujla, Prem Dhillon</p>
+          </div>
+          <div data-folder="Burrh" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Burrh/Burrh Rap.jpeg" />
+            <h3>Burrh Rap</h3>
+            <p>Wazir, Sidhu Moosewala, Shubh</p>
+          </div>
+          <div data-folder="Chaa" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Chaa/Chaa & Chill.jpeg" />
+            <h3>Chaa & Chill</h3>
+            <p>Prm Nagra, Dhanda Nyoliwala, Jerry</p>
+          </div>
+          <div data-folder="Chill" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Chill/Chill Karlo.jpeg" />
+            <h3>Chill Karlo</h3>
+            <p>Shubh, Prem Dhillon, Karan Aujla</p>
+          </div>
+          <div data-folder="Happy" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Happy/Happy Oye.jpeg" />
+            <h3>Happy Oye</h3>
+            <p>KD Desirock, Karan Aujla, Ndee Kundu</p>
+          </div>
+          <div data-folder="Hindi" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Hindi/New Music Hindi.jpeg" />
+            <h3>New Music Hindi</h3>
+            <p>Arijit Singh, Badshah, Danny</p>
+          </div>
+          <div data-folder="Valentine" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Valentine/Valentine's Punjabi.jpeg" />
+            <h3>Valentine's Punjabi</h3>
+            <p>Shubh, Diljit Dosanjh, Prm Nagra</p>
+          </div>
+          <div data-folder="Swag" class="card">
+            <svg
+              height="100"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" fill="#1fdf64" r="50" />
+              <polygon fill="black" points="35,25 35,75 75,50" />
+            </svg>
+            <img  alt="Cover photo" src="/songs/Swag/Punjabi Swag.jpeg" />
+            <h3>Punjabi Swag</h3>
+            <p>Sidhu Moosewala, Karan Aujla, Jerry</p>
+          </div>
+        </div>
+      
+      <div class="playBar">
+        
+        <div class="aboutSong">
+          <div class="songName">Song Name</div>
+          <div class="artistName2">Artist Name</div> 
+        </div>  
+        <div class="controlButtons">
+          <img id="previous" width="30px" src="img/preButton.svg" />
+          <img id="play" width="40px" src="img/play.svg" />
+          <!-- <img id="pause" width="40px" src="img/pause.svg" /> -->
+          <img id="next" width="30px" src="img/nextButton.svg" />
+        </div>
+        <div class="songInfo">
+          <div class="songTime">00:00</div>
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="songDuration">00:00</div>
+          </div>
+          <div class="volume">
+            <img id="volumeIcon" width="30px" src="img/Volume.svg" alt="volume logo" min="0" max="100" value="50">
+            <!-- <img id="muteIcon" width="30px" src="img/mute.svg" alt=""> -->
+            <div class="range">
+              <input type="range" name="volume">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
